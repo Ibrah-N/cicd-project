@@ -575,3 +575,120 @@ x=========================x]
 
 
 x=========================x]
+[2025-02-04 20:51:06,111: INFO: main: >>>>>> Stage Data Ingestion  Started <<<<<<<]
+[2025-02-04 20:51:06,127: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-04 20:51:06,127: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-04 20:51:06,127: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-04 20:51:06,127: INFO: common: created directory at: artifacts]
+[2025-02-04 20:51:06,127: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-04 20:51:06,127: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2025-02-04 20:51:06,143: INFO: main: >>>>>> Stage Data Ingestion  Completed <<<<<<<
+
+
+
+x=========================x]
+[2025-02-04 20:51:06,143: INFO: main: >>>>>>>>> Stage Data Validation  Started  <<<<<<<<<]
+[2025-02-04 20:51:06,143: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-04 20:51:06,158: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-04 20:51:06,158: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-04 20:51:06,158: INFO: common: created directory at: artifacts]
+[2025-02-04 20:51:06,158: INFO: common: created directory at: artifacts/data_validation]
+[2025-02-04 20:51:06,190: INFO: main: >>>>>>>>> Stage Data Validation  Completed  <<<<<<<<<
+
+
+
+x=========================x]
+[2025-02-04 20:51:06,190: INFO: main: >>>>>>>> Stage Data Transformation  Started  <<<<<<<<]
+[2025-02-04 20:51:06,190: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-04 20:51:06,190: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-04 20:51:06,205: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-04 20:51:06,205: INFO: common: created directory at: artifacts]
+[2025-02-04 20:51:06,205: INFO: common: created directory at: artifacts/data_transformation]
+[2025-02-04 20:51:06,236: INFO: data_transformation: Data splitted into train and test sets]
+[2025-02-04 20:51:06,236: INFO: data_transformation: shape of training set: (1279, 12)]
+[2025-02-04 20:51:06,236: INFO: data_transformation: Shpae of test set: (320, 12)]
+[2025-02-04 20:51:06,236: INFO: main: >>>>>>>> Stage Data Transformation  Completed  <<<<<<<<
+
+
+
+x=========================x]
+[2025-02-04 20:51:06,236: INFO: main: >>>>>>> Stage Model Training  Started <<<<<<<<<]
+[2025-02-04 20:51:06,236: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-04 20:51:06,236: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-04 20:51:06,252: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-04 20:51:06,252: INFO: common: created directory at: artifacts]
+[2025-02-04 20:51:06,252: INFO: common: created directory at: artifacts/model_trainer]
+[2025-02-04 20:51:06,299: INFO: main: >>>>>>> Stage Model Training  Completed <<<<<<<<<
+
+
+
+x=========================x]
+[2025-02-04 20:51:06,299: INFO: main: >>>>>> Stage Model Evaluation  Started <<<<<<<]
+[2025-02-04 20:51:06,299: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-04 20:51:06,299: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-04 20:51:06,299: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-04 20:51:06,299: INFO: common: created directory at: artifacts]
+[2025-02-04 20:51:06,299: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-02-04 20:51:06,315: INFO: common: json file saved at: artifacts\model_evaluation\martic.json]
+[2025-02-04 20:51:06,315: INFO: main: >>>>>> Stage Model Evaluation  Completed <<<<<<<
+
+
+
+x=========================x]
+[2025-02-04 21:02:23,988: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://127.0.0.1:8080]
+[2025-02-04 21:02:23,989: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-02-04 21:03:33,579: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:03:33] "GET / HTTP/1.1" 200 -]
+[2025-02-04 21:03:34,109: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:03:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:34,397: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://127.0.0.1:8080]
+[2025-02-04 21:05:34,397: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-02-04 21:05:40,566: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:40] "GET / HTTP/1.1" 200 -]
+[2025-02-04 21:05:40,611: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:40] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:40,632: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:40] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:40,647: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:40] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:40,658: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:40] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:40,668: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:40] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:40,671: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:40] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:40,843: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:40] "[33mGET /static/assets/favicon.ico HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:48,044: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:48] "GET / HTTP/1.1" 200 -]
+[2025-02-04 21:05:48,103: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:48] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:48,124: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:48] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:48,132: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:48] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:48,143: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:48] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:48,145: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:48] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2025-02-04 21:05:48,173: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:05:48] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:13,228: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://127.0.0.1:8080]
+[2025-02-04 21:19:13,228: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-02-04 21:19:19,086: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:19] "GET / HTTP/1.1" 200 -]
+[2025-02-04 21:19:19,128: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:19] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:19,147: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:19] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:19,154: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:19] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:19,174: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:19] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:19,179: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:19] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:19,198: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:19] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:23,394: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:23] "GET / HTTP/1.1" 200 -]
+[2025-02-04 21:19:23,428: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:23] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:23,434: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:23] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:23,438: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:23] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:23,443: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:23] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:23,467: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:23] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:23,470: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:23] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:35,491: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:35] "POST /predict HTTP/1.1" 200 -]
+[2025-02-04 21:19:35,520: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:35] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:35,529: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:35] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:35,538: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:35] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:42,404: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:42] "GET / HTTP/1.1" 200 -]
+[2025-02-04 21:19:42,443: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:42] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:42,446: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:42] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:42,465: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:42] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:42,468: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:42] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:42,482: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:42] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2025-02-04 21:19:42,498: INFO: _internal: 127.0.0.1 - - [04/Feb/2025 21:19:42] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
